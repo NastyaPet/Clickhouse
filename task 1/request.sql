@@ -17,6 +17,7 @@ SELECT
   ['a', 'b'][toInt32(randUniform(1,3))]
 FROM numbers(100000);
 
-SELECT * FROM Anastasia.test WHERE b like '%abc%' AND a > 10 LIMIT 3
+SELECT * FROM Anastasia.test 
+WHERE b like '%abc%' AND a > 10 LIMIT 3;
 
 
